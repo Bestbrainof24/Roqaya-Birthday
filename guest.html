@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="guest.js"></script>
+    <title>Send a Message</title>
+    <link rel="stylesheet" href="guest.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💌 Send a Birthday Message</h1>
+        <input type="text" id="guestName" placeholder="Your Name">
+        <textarea id="guestMessage" placeholder="Write your message here..."></textarea>
+        <button onclick="submitMessage()">Submit</button>
+        <p id="confirmation" style="display: none;">✅ Message sent!</p>
+    </div>
+</body>
+</html>
