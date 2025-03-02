@@ -16,7 +16,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebas
 
         function checkBirthday() {
             const now = new Date();
-            const birthday = new Date("March 11, 2025 00:00:00"); // March 11, 2025 at 12:00 AM (midnight)
+            const birthday = new Date("July 8, 2025 00:00:00"); // March 11, 2025 at 12:00 AM (midnight)
 
             if (now >= birthday) {
                 document.getElementById("content").classList.remove("hidden");
